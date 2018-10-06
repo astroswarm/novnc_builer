@@ -1,0 +1,13 @@
+---
+image: "astroswarm/novnc:latest"
+manifests:
+  -
+    image: "astroswarm/novnc-x86_64:latest"
+    platform:
+      architecture: amd64
+      os: linux
+  -
+    image: "astroswarm/novnc-armv7l:latest"
+    platform:
+      architecture: arm
+      os: linux
